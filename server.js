@@ -14,7 +14,7 @@ let server = http.createServer(function(request, response){
         console.log("Request received. Greeting user!");
         let user = faker.name.findName();
         response.writeHead(200, {"Content-Type": "text/html"});
-        response.end(`<h1>Hello <strong>${user}</strong>!<h1>`);
+        response.end(`Hello <strong>${user}</strong>!`);
     }
 });
 
