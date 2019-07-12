@@ -1,11 +1,13 @@
 {
   "name": "npm_scripts",
   "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
   "dependencies": {
     "faker": {
       "version": "3.1.0",
-      "from": "faker@latest",
-      "resolved": "https://registry.npmjs.org/faker/-/faker-3.1.0.tgz"
+      "resolved": "https://registry.npmjs.org/faker/-/faker-3.1.0.tgz",
+      "integrity": "sha1-D5CPr05uwCUk5UpX5DLFwBPgjJ8="
     }
   }
 }
